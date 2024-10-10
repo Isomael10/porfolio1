@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body class="bg-gray-100 text-gray-950">
+
+  <!-- Header -->
+  <header class="bg-black shadow text-gray-400">
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <div class="text-lg font-bold">Iso<span class="text-red-500" >Mael</span></div>
+      <nav class="space-x-4">
+        <a href="#hero" class="hover:text-blue-600">Home</a>
+        <a href="#skills" class="hover:text-blue-600">Compétences</a>
+        <a href="#projects" class="hover:text-blue-600">Projets</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+ <!-- Hero Section -->
+<section id="hero" class="h-screen bg-cover bg-center text-white" style="background-image: url('https://i.pinimg.com/564x/25/1c/e2/251ce2409b98c66d4b8d45d3365c6b2b.jpg');">
+    <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+        <H2 class="text-4xl md:text-6xl font-bold" > Hello, Iso<span class="text-red-500" >Mael</span></H2>
+        <p class="mt-4 text-lg">Développeur Web passionné par la création de solutions innovantes.</p>
+        <a href="#contact" class="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded">Me Contacter</a>
+      </div>   
+   
+  </section>
+  
+
+ <!-- Skills Section with Animated Icons -->
+ <section id="skills" class="py-20">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Mes Compétences</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      
+<!-- HTML Icon -->
+<div class="bg-white shadow-lg rounded-lg p-6 text-center">
+  <div class="w-16 h-16 mx-auto mb-4 animate-bounce">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Icon">
+  </div>
+  <h3 class="text-xl font-semibold">HTML</h3>
+</div>
+
+<!-- CSS Icon -->
+<div class="bg-white shadow-lg rounded-lg p-6 text-center">
+  <div class="w-16 h-16 mx-auto mb-4 animate-pulse">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Icon">
+  </div>
+  <h3 class="text-xl font-semibold">CSS</h3>
+</div>
+
+<!-- Bootstrap Icon -->
+<div class="bg-white shadow-lg rounded-lg p-6 text-center">
+  <div class="w-16 h-16 mx-auto mb-4 animate-spin">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Icon">
+  </div>
+  <h3 class="text-xl font-semibold">Bootstrap</h3>
+</div>
+
+<!-- Tailwind CSS Icon -->
+<div class="bg-white shadow-lg rounded-lg p-6 text-center">
+  <div class="w-16 h-16 mx-auto mb-4 animate-pulse">
+    <img src="https://i.pinimg.com/564x/cd/00/4b/cd004b701e51ee32dd3225b910575320.jpg" alt="Tailwind CSS Icon">
+  </div>
+  <h3 class="text-xl font-semibold">Tailwind CSS</h3>
+</div>
+
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-gray-50">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Mes Projets</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+      <!-- Project Card 1 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="image/Capture d'écran 2024-10-10 002507.png" alt="Projet 1" class="w-full">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-4">MaelA.Vayage</h3>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, unde!</p>
+          <a href="#" class="text-blue-600 hover:underline mt-4 block">Voir le projet</a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="image/image1.png" alt="Projet 2" class="w-full">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-4">Portfolio 1</h3>
+          <p class="text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, obcaecati!</p>
+          <a href="#" class="text-blue-600 hover:underline mt-4 block">Voir le projet</a>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="image/resto.png" alt="Projet 3" class="w-full">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-4">Sama Resto</h3>
+          <p class="text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, id.</p>
+          <a href="#" class="text-blue-600 hover:underline mt-4 block">Voir le projet</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Contactez-moi</h2>
+    <form class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 mb-8">
+      <div class="mb-4">
+        <label class="block text-gray-700">Nom</label>
+        <input type="text" class="w-full mt-2 p-2 border border-gray-300 rounded">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700">Email</label>
+        <input type="email" class="w-full mt-2 p-2 border border-gray-300 rounded">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700">Message</label>
+        <textarea class="w-full mt-2 p-2 border border-gray-300 rounded"></textarea>
+      </div>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">Envoyer</button>
+    </form>
+
+    <!-- Social Media Links -->
+    <div class="flex justify-center space-x-6">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/isomaeloff" target="_blank" class="text-blue-600 hover:text-blue-800">
+        <i class="fab fa-facebook-f fa-2x"></i>
+      </a>
+      
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/iso_mael" target="_blank" class="text-pink-600 hover:text-pink-800">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+
+     
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Isomael. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
